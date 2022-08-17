@@ -38,7 +38,12 @@ To deploy the front run
 ```bash
   npm run start
 ```
+## Admin
 
+For admin access
+
+- email: admin@mail.com
+- password: utilisateur1
 
 ## Authors
 
