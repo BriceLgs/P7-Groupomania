@@ -36,15 +36,6 @@ export const getPost = async (req, res) => {
     }
 };
 
-// export const getAllPosts = async (req, res) => {
-//     try {
-//         const post = await PostModel.findOne(id);
-//         res.status(200).json(post);
-//     } catch (error) {
-//         res.status(404).json({message: "Quelques chose d'inconvéniant s'est produit"});
-//     }
-// };
-// important
 export const getPostsByUser = async (req, res) => {
     const {id} = req.params;
     if(!mongoose.Types.ObjectId.isValid(id)) {
